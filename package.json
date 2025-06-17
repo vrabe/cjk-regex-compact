@@ -1,0 +1,22 @@
+{
+  "name": "cjk-regex-compact",
+  "version": "0.1.0",
+  "description": "A more compact library of regular expression for matching CJK text, which makes the bundle size smaller.",
+  "exports": "./lib/index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node src/index.js"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/vrabe/cjk-regex-compact",
+  "author": {
+    "name": "vrabe",
+    "email": "git@vrabe.tw",
+    "url": "https://github.com/vrabe"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.9.0",
+  "devDependencies": {
+    "cjk-regex": "^3.3.0"
+  }
+}

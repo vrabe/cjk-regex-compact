@@ -1,0 +1,40 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      cjk-regex:
+        specifier: ^3.3.0
+        version: 3.3.0
+
+packages:
+
+  cjk-regex@3.3.0:
+    resolution: {integrity: sha512-o9QeA4DIiljRGO3mXzkQXBttzE6XRGZG99V9F8uqrdqKo5RHTFe8w+pk1aOMB/wxQ7qQ8J7WoTagabTabPgl8A==}
+    engines: {node: '>=16'}
+
+  regexp-util@2.0.3:
+    resolution: {integrity: sha512-GP6h9OgJmhAZpb3dbNbXTfRWVnGcoMhWRZv/HxgM4/qCVqs1P9ukQdYxaUhjWBSAs9oJ/uPXUUvGT1VMe0Bs0Q==}
+    engines: {node: '>=16'}
+
+  unicode-regex@4.1.2:
+    resolution: {integrity: sha512-30Y3tQ8OUxceQjsEJHzNh20lLYZX6ZwQyUOHBUdN1UPKQWH3AvH20aUADWa1gEz2lQPTSQ/l2ZqdM4FjFNMJsQ==}
+    engines: {node: '>=16'}
+
+snapshots:
+
+  cjk-regex@3.3.0:
+    dependencies:
+      regexp-util: 2.0.3
+      unicode-regex: 4.1.2
+
+  regexp-util@2.0.3: {}
+
+  unicode-regex@4.1.2:
+    dependencies:
+      regexp-util: 2.0.3
