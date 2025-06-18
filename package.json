@@ -12,6 +12,7 @@
   },
   "keywords": [],
   "homepage": "https://github.com/vrabe/cjk-regex-compact",
+  "repository": "https://github.com/vrabe/cjk-regex-compact",
   "author": {
     "name": "vrabe",
     "email": "git@vrabe.tw",
