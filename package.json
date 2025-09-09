@@ -1,6 +1,6 @@
 {
   "name": "cjk-regex-compact",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A more compact library of regular expression for matching CJK text, which makes the bundle size smaller.",
   "exports": "./lib/index.js",
   "files": [
