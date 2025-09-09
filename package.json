@@ -21,6 +21,6 @@
   "license": "MIT",
   "packageManager": "pnpm@10.9.0",
   "devDependencies": {
-    "cjk-regex": "^3.3.0"
+    "cjk-regex": "^3.4.0"
   }
 }

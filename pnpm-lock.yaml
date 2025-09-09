@@ -9,32 +9,32 @@ importers:
   .:
     devDependencies:
       cjk-regex:
-        specifier: ^3.3.0
-        version: 3.3.0
+        specifier: ^3.4.0
+        version: 3.4.0
 
 packages:
 
-  cjk-regex@3.3.0:
-    resolution: {integrity: sha512-o9QeA4DIiljRGO3mXzkQXBttzE6XRGZG99V9F8uqrdqKo5RHTFe8w+pk1aOMB/wxQ7qQ8J7WoTagabTabPgl8A==}
+  cjk-regex@3.4.0:
+    resolution: {integrity: sha512-m+gbmlIP6gAG7tDvo2kpeSPAz/uh5wY5/zx10ymjdpbbiTHNTNoYnP2lCiyqtmbLxwhEdq8/lsVbsy4GTc9oUw==}
     engines: {node: '>=16'}
 
   regexp-util@2.0.3:
     resolution: {integrity: sha512-GP6h9OgJmhAZpb3dbNbXTfRWVnGcoMhWRZv/HxgM4/qCVqs1P9ukQdYxaUhjWBSAs9oJ/uPXUUvGT1VMe0Bs0Q==}
     engines: {node: '>=16'}
 
-  unicode-regex@4.1.2:
-    resolution: {integrity: sha512-30Y3tQ8OUxceQjsEJHzNh20lLYZX6ZwQyUOHBUdN1UPKQWH3AvH20aUADWa1gEz2lQPTSQ/l2ZqdM4FjFNMJsQ==}
+  unicode-regex@4.2.0:
+    resolution: {integrity: sha512-fEYz7CCnvHDAdrb8OYAP7qlQCWzXBO5cHXQ3XI+HoZaBpiAwyC6b2nixMGl91yrDYEIRm7NDskgTvnLZ7mqrKQ==}
     engines: {node: '>=16'}
 
 snapshots:
 
-  cjk-regex@3.3.0:
+  cjk-regex@3.4.0:
     dependencies:
       regexp-util: 2.0.3
-      unicode-regex: 4.1.2
+      unicode-regex: 4.2.0
 
   regexp-util@2.0.3: {}
 
-  unicode-regex@4.1.2:
+  unicode-regex@4.2.0:
     dependencies:
       regexp-util: 2.0.3
